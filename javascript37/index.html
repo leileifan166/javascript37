@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <script>
+        var n1 = 100;
+        console.log(isNaN(n1));
+        //如果是一个数，会返回false
+
+        var n2 = "太郎";
+        console.log(isNaN(n2));
+        //如果不是一个数，会返回true
+        /* console.log(isNaN(NaN));//true
+        console.log(isNaN(0));//false
+        console.log(isNaN("10"));//
+        console.log(isNaN("blue"));//true
+        console.log(isNaN(true));false */
+
+
+
+
+
+
+
+
+
+        console.log(isNaN(1));//false
+        console.log(isNaN(true));//true
+        console.log(isNaN(false));//false
+        console.log(isNaN("100"));//false
+        console.log(isNaN("さるじり"));//false
+        console.log(isNaN(100));//false
+        console.log(isNaN(undefined));//true
+        console.log(isNaN(null));//true
+    
+
+
+
+    </script>
+
+    
+</body>
+</html>
